@@ -6,7 +6,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ToBeLiftBetter.DOCProject.UI.Controllers.Area
+
+namespace ToBeLiftBetter.DOCProject.UI.Areas.Back
 {
     public class TagFatherController : Controller
     {
