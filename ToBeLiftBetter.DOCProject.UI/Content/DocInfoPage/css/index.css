@@ -1,0 +1,104 @@
+body { padding-top: 50px; }
+.breadcrumb {
+	margin: 0;
+	margin-top: 34px;
+	padding-left: 10%;
+	position: fixed;
+	z-index: 5;
+}
+		.This-Header{
+			padding-left: 7%!important;
+		}
+		.navbar-brand{
+			padding: 5px !important;
+		}
+		.this-content{
+			/*border:1px solid coral;*/
+			/*height: 800px;*/
+			position: absolute;
+			top: 2%;
+			left: 25%;
+		}
+		.this-left-nav{
+			/*border:1px solid seagreen;*/
+			/*height: 800px;*/
+			/*padding-left: 150px;*/			
+			position: fixed;
+			top: 9%;
+			left: 8%;
+			
+		}
+		.this-right-nav{
+			/*border:1px solid aqua;*/
+			/*height: 800px;*/
+			position: fixed;
+			top: 2%;
+			left: 75%;
+		}
+		.search{
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		#myScrollspy{
+			position: fixed;
+		}
+		.row{
+			padding-top: 6% !important;
+		}
+		.rightnav{
+			position: fixed !important;
+			top: 13% !important;
+		}
+		li{
+			list-style-type: none;
+		}	
+		.activecolor{
+			color: black;
+			/*#337AB7*/
+		}
+		.defult{
+			color: #337AB7;
+		}
+		#section-1,#section-2,#section-3,#section-4,#section-5{
+			padding-top:100px;
+			margin-top:-100px;
+		}
+		 ul.nav-tabs{
+	        width: 140px;
+	        margin-top: 20px;
+	        border-radius: 4px;
+	        border: 1px solid #ddd;
+	        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+	    }
+	    ul.nav-tabs li{
+	        margin: 0;
+	        border-top: 1px solid #ddd;
+	    }
+	    ul.nav-tabs li:first-child{
+	        border-top: none;
+	    }
+	    ul.nav-tabs li a{
+	        margin: 0;
+	        padding: 8px 16px;
+	        border-radius: 0;
+	    }
+	    ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+	        color: #fff;
+	        background: #0088cc;
+	        border: 1px solid #0088cc;
+	    }
+	    ul.nav-tabs li:first-child a{
+	        border-radius: 4px 4px 0 0;
+	    }
+	    ul.nav-tabs li:last-child a{
+	        border-radius: 0 0 4px 4px;
+	    }
+	   ul.nav-tabs.affix{
+	        top: 30px;  Set the top position of pinned element 
+	    }
+
+.navbartarget {
+	color: #0065b3;
+}
+		
+		

@@ -1,0 +1,10 @@
+C:\Users\lsh\source\repos\ToBeLiftBetter.DOCProject\DataModel\bin\Debug\DataModel.dll
+C:\Users\lsh\source\repos\ToBeLiftBetter.DOCProject\DataModel\bin\Debug\DataModel.pdb
+C:\Users\lsh\source\repos\ToBeLiftBetter.DOCProject\DataModel\obj\Debug\DataModel.csprojAssemblyReference.cache
+C:\Users\lsh\source\repos\ToBeLiftBetter.DOCProject\DataModel\obj\Debug\DataModel.dll
+C:\Users\lsh\source\repos\ToBeLiftBetter.DOCProject\DataModel\obj\Debug\DataModel.pdb
+D:\temp文件(桌面相关)\研发部\内部研发\10.资料项目\ToBeLiftBetter.DOCProject\DataModel\bin\Debug\DataModel.dll
+D:\temp文件(桌面相关)\研发部\内部研发\10.资料项目\ToBeLiftBetter.DOCProject\DataModel\bin\Debug\DataModel.pdb
+D:\temp文件(桌面相关)\研发部\内部研发\10.资料项目\ToBeLiftBetter.DOCProject\DataModel\obj\Debug\DataModel.csprojAssemblyReference.cache
+D:\temp文件(桌面相关)\研发部\内部研发\10.资料项目\ToBeLiftBetter.DOCProject\DataModel\obj\Debug\DataModel.dll
+D:\temp文件(桌面相关)\研发部\内部研发\10.资料项目\ToBeLiftBetter.DOCProject\DataModel\obj\Debug\DataModel.pdb
