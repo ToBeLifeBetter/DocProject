@@ -8,3 +8,7 @@ D:\temp文件(桌面相关)\研发部\内部研发\10.资料项目\ToBeLiftBette
 D:\temp文件(桌面相关)\研发部\内部研发\10.资料项目\ToBeLiftBetter.DOCProject\DataModel\obj\Debug\DataModel.csprojAssemblyReference.cache
 D:\temp文件(桌面相关)\研发部\内部研发\10.资料项目\ToBeLiftBetter.DOCProject\DataModel\obj\Debug\DataModel.dll
 D:\temp文件(桌面相关)\研发部\内部研发\10.资料项目\ToBeLiftBetter.DOCProject\DataModel\obj\Debug\DataModel.pdb
+E:\研发部\加油\资源库项目\ToBeLiftBetter.DOCProject\DataModel\bin\Debug\DataModel.dll
+E:\研发部\加油\资源库项目\ToBeLiftBetter.DOCProject\DataModel\bin\Debug\DataModel.pdb
+E:\研发部\加油\资源库项目\ToBeLiftBetter.DOCProject\DataModel\obj\Debug\DataModel.dll
+E:\研发部\加油\资源库项目\ToBeLiftBetter.DOCProject\DataModel\obj\Debug\DataModel.pdb

@@ -8,3 +8,8 @@ D:\temp文件(桌面相关)\研发部\内部研发\10.资料项目\ToBeLiftBette
 D:\temp文件(桌面相关)\研发部\内部研发\10.资料项目\ToBeLiftBetter.DOCProject\Common\obj\Debug\Util.csprojAssemblyReference.cache
 D:\temp文件(桌面相关)\研发部\内部研发\10.资料项目\ToBeLiftBetter.DOCProject\Common\obj\Debug\Common.dll
 D:\temp文件(桌面相关)\研发部\内部研发\10.资料项目\ToBeLiftBetter.DOCProject\Common\obj\Debug\Common.pdb
+E:\研发部\加油\资源库项目\ToBeLiftBetter.DOCProject\Common\bin\Debug\Common.dll
+E:\研发部\加油\资源库项目\ToBeLiftBetter.DOCProject\Common\bin\Debug\Common.pdb
+E:\研发部\加油\资源库项目\ToBeLiftBetter.DOCProject\Common\obj\Debug\Util.csprojAssemblyReference.cache
+E:\研发部\加油\资源库项目\ToBeLiftBetter.DOCProject\Common\obj\Debug\Common.dll
+E:\研发部\加油\资源库项目\ToBeLiftBetter.DOCProject\Common\obj\Debug\Common.pdb
