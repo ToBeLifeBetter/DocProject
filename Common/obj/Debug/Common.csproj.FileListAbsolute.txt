@@ -1,0 +1,5 @@
+E:\研发部\加油\资源库项目\ToBeLiftBetter.DOCProject\Common\bin\Debug\Common.dll
+E:\研发部\加油\资源库项目\ToBeLiftBetter.DOCProject\Common\bin\Debug\Common.pdb
+E:\研发部\加油\资源库项目\ToBeLiftBetter.DOCProject\Common\obj\Debug\Common.dll
+E:\研发部\加油\资源库项目\ToBeLiftBetter.DOCProject\Common\obj\Debug\Common.pdb
+E:\研发部\加油\资源库项目\ToBeLiftBetter.DOCProject\Common\obj\Debug\Common.csprojAssemblyReference.cache

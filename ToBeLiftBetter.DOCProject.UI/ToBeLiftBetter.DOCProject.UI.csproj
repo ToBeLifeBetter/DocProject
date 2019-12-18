@@ -126,7 +126,11 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Back\BackAreaRegistration.cs" />
+<<<<<<< HEAD
     <Compile Include="Areas\Back\Controllers\TagFatherController.cs" />
+=======
+    <Compile Include="Controllers\Area\TagFatherController.cs" />
+>>>>>>> 89e1b430611c5f664d51e188b0dabdd7eaa3e8e1
     <Compile Include="Controllers\DocumentListController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -275,12 +279,15 @@
     <Content Include="Content\Comment\layui\font\iconfont.woff" />
     <Content Include="Content\Comment\layui\font\iconfont.woff2" />
     <Content Include="Areas\Back\Views\web.config" />
+<<<<<<< HEAD
     <Content Include="Areas\Back\Views\TagFather\Create.cshtml" />
     <Content Include="Areas\Back\Views\TagFather\Delete.cshtml" />
     <Content Include="Areas\Back\Views\TagFather\Edit.cshtml" />
     <Content Include="Areas\Back\Views\TagFather\Index.cshtml" />
     <Content Include="Areas\Back\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Back\Views\Shared\_Layout.cshtml" />
+=======
+>>>>>>> 89e1b430611c5f664d51e188b0dabdd7eaa3e8e1
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -313,7 +320,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+<<<<<<< HEAD
     <Folder Include="Areas\Back\Models\" />
+=======
+    <Folder Include="Areas\Back\Controllers\" />
+    <Folder Include="Areas\Back\Models\" />
+    <Folder Include="Areas\Back\Views\Shared\" />
+>>>>>>> 89e1b430611c5f664d51e188b0dabdd7eaa3e8e1
     <Folder Include="Models\" />
     <Folder Include="Views\Default\" />
   </ItemGroup>
@@ -331,6 +344,13 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{3c13fcf2-91f1-4ea5-b894-24142f36c412}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+>>>>>>> 89e1b430611c5f664d51e188b0dabdd7eaa3e8e1
     <ProjectReference Include="..\DataEntity\DataEntity.csproj">
       <Project>{c54de209-5fcf-4c60-ba48-bb85463434a9}</Project>
       <Name>DataEntity</Name>
