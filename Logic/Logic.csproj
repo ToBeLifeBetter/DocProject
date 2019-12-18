@@ -51,6 +51,8 @@
     <Compile Include="BaseServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TagFatherSerivce.cs" />
+    <Compile Include="TagBehaviorService.cs" />
+    <Compile Include="TagSonService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataEntity\DataEntity.csproj">

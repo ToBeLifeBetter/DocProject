@@ -11,18 +11,27 @@ namespace DataEntity.EntityModel
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel;
+
     public partial class MainContentListTagSon
     {
         public int Id { get; set; }
+        [DisplayName("详细内容名称")]
         public string Name { get; set; }
+        [DisplayName("子模块Id")]
         public Nullable<int> ContentListTagFatherId { get; set; }
+        [DisplayName("代码Id")]
         public Nullable<int> ShowCodeId { get; set; }
+        [DisplayName("所属url链接")]
         public string UrlName { get; set; }
+        [DisplayName("是否更新")]
         public Nullable<short> IsUpadte { get; set; }
+        [DisplayName("是否删除")]
         public Nullable<short> IsDelete { get; set; }
+        [DisplayName("创建日期")]
         public Nullable<System.DateTime> CreateTime { get; set; }
     
+
         public virtual MainContentListShowCode MainContentListShowCode { get; set; }
         public virtual MainContentListTagFather MainContentListTagFather { get; set; }
     }

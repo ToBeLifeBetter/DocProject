@@ -287,3 +287,5 @@ E:\研发部\加油\资源库项目\ToBeLiftBetter.DOCProject\ToBeLiftBetter.DOC
 E:\研发部\加油\资源库项目\ToBeLiftBetter.DOCProject\ToBeLiftBetter.DOCProject.UI\obj\Debug\ToBeLiftBetter.DOCProject.UI.csproj.CopyComplete
 E:\研发部\加油\资源库项目\ToBeLiftBetter.DOCProject\ToBeLiftBetter.DOCProject.UI\obj\Debug\ToBeLiftBetter.DOCProject.UI.dll
 E:\研发部\加油\资源库项目\ToBeLiftBetter.DOCProject\ToBeLiftBetter.DOCProject.UI\obj\Debug\ToBeLiftBetter.DOCProject.UI.pdb
+D:\temp文件(桌面相关)\研发部\内部研发\10.资料项目\ToBeLiftBetter.DOCProject\ToBeLiftBetter.DOCProject.UI\bin\Common.dll
+D:\temp文件(桌面相关)\研发部\内部研发\10.资料项目\ToBeLiftBetter.DOCProject\ToBeLiftBetter.DOCProject.UI\bin\Common.pdb

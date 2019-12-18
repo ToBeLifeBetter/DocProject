@@ -11,15 +11,22 @@ namespace DataEntity.EntityModel
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel;
+
     public partial class MainContentListTagBehavior
     {
         public int Id { get; set; }
+        [DisplayName("行为标签名")]
         public string Name { get; set; }
+        [DisplayName("内容标签id")]
         public Nullable<int> ContentListTagSonId { get; set; }
+        [DisplayName("链接")]
         public string UrlName { get; set; }
+        [DisplayName("是否更新")]
         public Nullable<short> IsUpadte { get; set; }
+        [DisplayName("是否删除")]
         public Nullable<short> IsDelete { get; set; }
+        [DisplayName("创建日期")]
         public Nullable<System.DateTime> CreateTime { get; set; }
     }
 }
