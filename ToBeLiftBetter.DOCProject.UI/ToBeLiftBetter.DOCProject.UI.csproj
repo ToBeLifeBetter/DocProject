@@ -304,8 +304,6 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Views\DocumentList\index.html" />
-    <Content Include="Views\Home\index.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -322,13 +320,15 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\DocumentList\Index.cshtml" />
     <Content Include="Views\DocumentList\DocPage.cshtml" />
+    <Content Include="Views\DocumentList\FirstDocPage.cshtml" />
+    <Content Include="Views\DocumentList\Video.cshtml" />
+    <Content Include="Views\DocumentList\MyVideo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Back\Models\" />
     <Folder Include="Areas\Back\Views\MainContentListTagSon\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Default\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

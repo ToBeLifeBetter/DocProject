@@ -43,8 +43,15 @@
   <ItemGroup>
     <Compile Include="DataResult\DataResult.cs" />
     <Compile Include="Exception\CustomException.cs" />
+    <Compile Include="Helper\TagJsonList.cs" />
     <Compile Include="Helper\TimeSpanHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataModel\DataModel.csproj">
+      <Project>{54B260A1-1F0C-49F0-B466-69F63BAF351F}</Project>
+      <Name>DataModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

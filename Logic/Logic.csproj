@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseServices.cs" />
+    <Compile Include="ContentPageService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TagFatherSerivce.cs" />
     <Compile Include="TagBehaviorService.cs" />
@@ -58,6 +59,10 @@
     <ProjectReference Include="..\DataEntity\DataEntity.csproj">
       <Project>{C54DE209-5FCF-4C60-BA48-BB85463434A9}</Project>
       <Name>DataEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataModel\DataModel.csproj">
+      <Project>{54B260A1-1F0C-49F0-B466-69F63BAF351F}</Project>
+      <Name>DataModel</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

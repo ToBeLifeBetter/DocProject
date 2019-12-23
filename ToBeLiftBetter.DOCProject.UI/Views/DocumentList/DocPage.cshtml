@@ -41,3 +41,13 @@
     </div>
     <!--end 可替换右边导航-->
 </div>
+
+
+@section scripts{
+    <script>
+         //进行判断，如果为第一级菜单，那么久关闭其他true属性，开启当前id的true
+        var datas = @Html.Raw(ViewBag.LeftList)
+         var id = 101;
+
+    </script>
+}

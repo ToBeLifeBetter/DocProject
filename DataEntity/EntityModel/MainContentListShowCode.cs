@@ -11,8 +11,7 @@ namespace DataEntity.EntityModel
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel;
-
+    
     public partial class MainContentListShowCode
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -23,9 +22,7 @@ namespace DataEntity.EntityModel
         }
     
         public int Id { get; set; }
-        [DisplayName("代码")]
         public string Code { get; set; }
-        [DisplayName("描述")]
         public string Description { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

@@ -31,7 +31,8 @@
             <div class="form-group">
                 @Html.LabelFor(model => model.ContentListTagFatherId, "ContentListTagFatherId", htmlAttributes: new { @class = "control-label col-md-2" })
                 <div class="col-md-10">
-                    @Html.DropDownList("ContentListTagFatherId", null, htmlAttributes: new { @class = "form-control" })
+                    @*@Html.DropDownList("ContentListTagFatherId", null, htmlAttributes: new { @class = "form-control" })*@
+                    @Html.EditorFor(model => model.ContentListTagFatherId, new { htmlAttributes = new { @class = "form-control" } })
                     @Html.ValidationMessageFor(model => model.ContentListTagFatherId, "", new { @class = "text-danger" })
                 </div>
             </div>
@@ -39,7 +40,9 @@
             <div class="form-group">
                 @Html.LabelFor(model => model.ShowCodeId, "ShowCodeId", htmlAttributes: new { @class = "control-label col-md-2" })
                 <div class="col-md-10">
-                    @Html.DropDownList("ShowCodeId", null, htmlAttributes: new { @class = "form-control" })
+                    @*@Html.DropDownList("ShowCodeId", null, htmlAttributes: new { @class = "form-control" })*@
+                    @Html.EditorFor(model => model.ShowCodeId, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.EditorFor(model => model.ShowCodeId, new { htmlAttributes = new { @class = "form-control" } })
                     @Html.ValidationMessageFor(model => model.ShowCodeId, "", new { @class = "text-danger" })
                 </div>
             </div>

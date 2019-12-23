@@ -118,92 +118,44 @@
                 , util = layui.util;
 
             //列表模拟数据1
-            var data = [{
-                title: '一.Html基础'
-                , id: 1
-              ,spread:true
-                , children: [{
-                    title: '01.html简介'
-                    , id: 1000, spread: true
-               
-                    , children: [{
-                        title: '01.课前预习'
-                             ,href:"/DocumentList/DocPage?01.html简介-01.课前预习.html"
-                        , id: 10001
-                    }, {
-                            title: '02.Video学习'
-                            ,href:"/DocumentList/DocPage?01.html简介-02.Video学习.html"
-                        , id: 10002
-                    }, {
-                        title: '03.知识梳理'
-                        , id: 10003
-                    }, {
-                        title: '04.代码练习'
-                        , id: 10004
-                    }, {
-                        title: '05.总结'
-                        , id: 10005
-                    }, {
-                        title: '06.拓展学习'
-                        , id: 10006
-                    }]
-                }, {
-                    title: '02.我的第一个html网页'
-                    , id: 1001
-                }, {
-                    title: '03.我tm'
-                    , id: 1002
-                }]
-            }, {
-                title: ' 二.Html技能点学习'
-                , id: 2
-                , children: [{
-                    title: '学到死'
-                    , id: 2000
-                }, {
-                    title: '学完了'
-                    , id: 2001
-                }]
-            }, {
-                title: ' 三.Html技能实战'
-                , id: 3
-                , children: [{
-                    title: '干就完了'
-                    , id: 3000
-                }, {
-                    title: '奥里给'
-                    , id: 3001
-                }]
-            }];
-
+            /**/
+            var data = @Html.Raw(ViewBag.LeftList)
+     
             //无连接线风格
             tree.render({
                 elem: '#left-list'
                 , data: data
-                , showLine: false  //是否开启连接线
-             
-                , click:function(obj){
-    //console.log(obj.data); //得到当前点击的节点数据
-    //console.log(obj.state); //得到当前节点的展开状态：open、close、normal
-    //console.log(obj.elem); //得到当前节点元素
-                    if (obj.data.children) {
-                        console.log(obj.data.children); //当前节点下是否有子节点
-                    } else
-                    { 
-                        
+                , showLine: true  //是否开启连接线
+
+                , click: function (obj) {
+                            
+                     obj.data.state
+                
+                    if (obj.data.children && obj.data.children.length!=0) {
+                      
+                        console.log("childe" + obj.data.children); //当前节点下是否有子节点
+                    } else {                                 
                         console.log(obj.data); //得到当前点击的节点数据
-                        location.href = obj.data.href;
+                        //获取当前点击事件
+                        location.href = obj.data.href + "&id=" + obj.data.id+"&leven=" + obj.data.level+"&fatherid="+obj.data.fatherId;
                     }
-                    
-  }
+                }
             });
 
+      //      $("div[data-id]").removeClass("layui-tree-spread");
+      //      $("div[data-id]").children().eq(1).attr("style", "display: none;");
+
+      //      $("div[data-id=102]").parent().parent().addClass("layui-tree-spread");
+      //        $("div[data-id=102]").parent().attr("style", "display: block;");
+
+      //      $("div[data-id=102]").addClass("layui-tree-spread");
+      //$("div[data-id=102]").children().eq(1).attr("style", "display: block;");
             
 
 
-           // alert($("div[data-id='1']").html())
+        // alert($("div[data-id='1']").html())
 
-        });
+    });
     </script>
  
     @RenderSection("scripts", required: false)

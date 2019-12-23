@@ -1,2 +1,7 @@
 /*.vs
 /*.sln
+/Common/obj
+/DataEntity/obj
+/DataModel/obj
+/Logic/obj
+/ToBeLiftBetter.DOCProject.UI/obj

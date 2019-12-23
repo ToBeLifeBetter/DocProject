@@ -1,0 +1,178 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">-->
+    <title>index</title>
+
+
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/bootstrap.min.js" type="text/javascript"></script>
+
+    <style>
+        body {
+            padding-top: 50px;
+        }
+
+        .breadcrumb {
+            margin: 0;
+            padding-left: 10%;
+            position: fixed;
+            z-index: 5;
+        }
+
+        .This-Header {
+            padding-left: 7% !important;
+        }
+
+        .navbar-brand {
+            padding: 5px !important;
+        }
+
+        .row {
+            padding-top: 3% !important;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        .videobox {
+            height: 550px;
+            text-align: center;
+        }
+
+        .videonav {
+            height: 550px;
+            overflow-y: scroll;
+        }
+
+        .buttombox {
+            height: 200px;
+            width: 100%;
+        }
+    </style>
+    <script>
+        $(function () {
+            $('#myTab a:first').tab('show');//初始化显示哪个tab
+
+            $('#myTab a').click(function (e) {
+                e.preventDefault();//阻止a链接的跳转行为
+                $(this).tab('show');//显示当前选中的链接及关联的content
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top This-Header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!--当浏览器大小缩小到移动设备浏览器大小时，导航栏变为下拉式导航-->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--代码为下拉式导航用↑-->
+                <a class="navbar-brand" href="#">
+                    <img alt="Brand" src="~/Content/DocInfoPage/img/AlarmCenterIcon.png" width="40px">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">某文档1 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">某文档2</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">返回首页</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--导航栏下方导航标签-->
+    <ol class="breadcrumb col-xs-12">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Library</a></li>
+        <li class="active">Data</li>
+    </ol>
+    <div class=" container-fluid" style=" padding:0 250px !important;">
+        <div class="row">
+            <div style="">
+                <div class="col-sm-8 videobox" style=" ">
+
+                    <!--<div class="embed-responsive embed-responsive-16by9">-->
+                    <!-- <iframe height="100%" width="90%" src='https://v.youku.com/v_show/id_XNDQ3MjcwMTYzNg==.html?spm=a2h3j.8428770.3416059.1' frameborder=0 'allowfullscreen'></iframe>-->
+                    <iframe height="100%" width="90%" src='http://player.youku.com/embed/XNDQ3MjgzMTExMg==' frameborder=0 allowfullscreen></iframe>
+                    <!--<iframe  height="100%" width="90%"  src='http://player.youku.com/embed/XMzI1NjY4MDkyNA==' frameborder=0 'allowfullscreen'></iframe>-->
+                    <!--</div>-->
+
+                </div>
+                <div class="col-sm-4 videonav" style="">
+                    <ul class="nav nav-stacked">
+                        <!-- 侧边栏选项 -->
+                        <li role="presentation" class="active">
+                            <!-- 选项控制data-target对应的显隐 -->
+                            <a href="#" data-toggle="collapse" data-target="#list">专题一</a>
+                            <!-- 隐藏的详细菜单 -->
+                            <ul id="list" class="collapse in">
+                                <li class="active">
+                                    <a href="">
+                                        操作一
+                                    </a>
+                                </li>
+                                <li><a href="">操作二</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation">
+                            <a href="#" data-toggle="collapse" data-target="#list1">专题二</a>
+                            <ul id="list1" class="collapse in">
+                                <li class="active">
+                                    <a href="">
+                                        操作一
+                                    </a>
+                                </li>
+                                <li><a href="">操作二</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation"><a href="#">专题三</a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="buttombox col-md-12" style="">
+                <div class="col-md-12" class="contentbox" style=" padding-top: 20px; ">
+                    <ul class="nav nav-tabs " id="myTab" style="border-bottom: 1px solid gainsboro;">
+                        <li role="presentation" class="active"><a href="#collect">课程介绍</a></li>
+                        <li role="presentation"><a href="#myPost">课程资料下载</a></li>
+                    </ul>
+                    <div class="tab-content" style="padding-top: 20px;">
+                        <div class="tab-pane " id="myPost">
+                            圣诞节银行卡
+                        </div>
+
+                        <div class="tab-pane active" id="collect">
+                            sdhdtdyjryu
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
